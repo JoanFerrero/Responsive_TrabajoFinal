@@ -1,5 +1,6 @@
-import BarFilter from "./BarFilter";
+// import BarFilter from "./BarFilter";
 import Map from "./Map";
+import BotonConRecuadro from "./MapMovile";
 import TripList from "./TripList";
 
 const MainPageTrips = () => {
@@ -7,7 +8,8 @@ const MainPageTrips = () => {
     <>
       <div className="flex">
         <div className="w-full min-[1220px]:w-1/2 overflow-hidden">
-          <BarFilter />
+          <BotonConRecuadro />
+          {/* <BarFilter /> */}
           <TripList />
         </div>
         <div className="hidden  min-[1220px]:block w-1/2 h-screen overflow-hidden"> 

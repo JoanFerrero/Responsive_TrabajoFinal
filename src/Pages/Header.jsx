@@ -37,9 +37,6 @@ const Header = () => {
           </a>
         </nav>
         <div className="relative">
-          {/* <button onClick={toggleMenuU} className="focus:outline-none">
-            <img src="https://images.vexels.com/media/users/3/147102/isolated/preview/082213cb0f9eabb7e6715f59ef7d322a-icono-de-perfil-de-instagram.png" alt="Avatar" className="w-8 h-8 rounded-full" />
-          </button> */}
           <div onClick={toggleMenuU} className="relative box-content flex items-center justify-center overflow-hidden rounded-full size-10 bg-white">
             <img src="https://images.vexels.com/media/users/3/147102/isolated/preview/082213cb0f9eabb7e6715f59ef7d322a-icono-de-perfil-de-instagram.png" alt="" className="aspect-square" />
           </div>
